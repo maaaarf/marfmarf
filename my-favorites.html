@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marc's Space</title>
+    </head>
+    <style>
+        body {
+            background-color: #ede7df;
+            display: flex;
+        }
+
+        p {
+            margin-top: 0px;
+            font-family: Garamond, serif;
+        }
+
+        a {
+            font-family: Garamond, serif;
+            font-weight: bold;
+            font-size: 25px;
+            margin-top: 15px;
+            margin-left: 40px;
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+
+        .back-to-main {
+          font-size: 45px;
+          margin: none;
+        }
+
+        a:hover{
+            opacity: 0.5;
+            transform: translateY(-10px);
+        }
+        .box {
+            border-radius: 10px;
+            background-color: rgb(221, 205, 168);
+            padding: 20px;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: auto;         
+            position: absolute;  
+            width: 50%;
+            top: 50%;            
+            left: 50%;  
+            transform: translate(-50%, -50%); 
+            margin-top:300px;
+            padding-top: 50px;
+            box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container {
+            text-align: center; /* Center text under the image */
+        }
+
+        .box img {
+            width: 45%; /* Adjust image size */
+            height: auto;
+            box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container p {
+            margin-top: 20px;
+            font-size: 25px; 
+            font-weight: bold;
+        }
+    </style>
+</html>
+<body>
+    <a href="main.html" style="font-weight: normal; font-size: 45px; margin-left: 0px; margin-top: 0px">
+      Marc Bersabe.
+    </a>
+    <a href="about-me.html">
+      About Me
+    </a>
+    <a href="my-family.html">
+        My Family
+    </a>
+    <a href="resume.html">
+      Resume
+    </a>
+    <p style="font-size: 25px; font-weight: bold; margin-left: 40px; margin-top: 15px">
+      My Favorites
+    </p>
+
+    <div class="box">
+      <div class="image-container">
+        <img src="football.jpg" alt="Image 1">
+        <p>Favorite Sport: Football</p>
+      </div>
+      <div class="image-container">
+        <img src="opm.png" alt="Image 2">
+        <p>Favorite Music Genre: OPM</p>
+      </div>
+      <div class="image-container">
+        <img src="psg 2022.jpg_large" alt="Image 3">
+        <p>Favorite Sports Team: PSG 2022</p>
+      </div>
+      <div class="image-container">
+        <img src="guitar-lessons-1.jpg" alt="Image 4">
+        <p>Favorite Hobby: Guitar</p>
+      </div>
+      
+    </div>
+
+
+
+</body>
+</html>
